@@ -1,6 +1,6 @@
-import { AnyAction } from "redux";
+// import { AnyAction } from 'redux';
 
-export type AnyActionWithPayload<T, P> = {
+export type ActionWithPayload<T, P> = {
   type: T;
   payload: P;
 };
